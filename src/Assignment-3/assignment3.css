@@ -1,6 +1,4 @@
 /* Our CSS file. */
-
-
 .container, .content {
 width: 100%;
 height: 100%;
@@ -8,22 +6,30 @@ height: 100%;
 div{
     background-color: #F2F2F2;
 }
+.container-1{
+    display: inline-block;
+    border-style: solid;
+    text-align: center;
+}
 .container-2{
     float: left;
-    width: 50%;
+    width: 40%;
     text-align: center;
+    padding: 10px;
+}
+.container-3{
+    text-align: center;
+    border-style: solid;
 }
 .for-iframe{
     float: right;
     width: 50%;
 }
 #render-wiki{
-    display: block;
-    width: 100%;   
+    width: 90%;  
+    margin: 10px; 
 }
-.container-1{
-    display: inline-block;
-}
-.container-3{
-    text-align: center;
+button{
+    background-color: black;
+    color: white;
 }
