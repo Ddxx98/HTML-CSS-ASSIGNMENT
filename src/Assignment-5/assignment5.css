@@ -1,6 +1,10 @@
 /* Our CSS file. */
 body{
     background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #container{
@@ -8,16 +12,15 @@ body{
     height: 100%;
 }
 .card{
-    text-align: center;
     display: flex;
+    flex: 0 0 auto;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     margin: 40px;
     background-color: white;
 }
 .right{
-    margin: 20px;
+    margin: 50px;
 }
 button{
     background: lightgreen;
@@ -31,7 +34,7 @@ button{
     position: absolute;
     left: 30px;
     width: 425px;
-    top: 80%;
+    top: 600px;
 }
 .leafy{
     position: absolute;
